@@ -15,7 +15,7 @@ const Header = () => {
                     initial={{ opacity: 0, x: "-50%" }}
                     animate={{ opacity: 1, x: "0%" }}
                     exit={{ opacity: 0, x: "-50%", transition: { duration: "0.35" } }}
-                    transition={{ stiffness: "100", duration: "0.55" }}
+                    transition={{ stiffness: "100", duration: "0.35" }}
                     className='absolute z-10'
                 >
                     <div className='w-screen flex min-h-screen'>
@@ -64,7 +64,7 @@ const Header = () => {
                             initial={{ opacity: 0}}
                             animate={{ opacity: 1}}
                             exit={{ opacity: 0, transition: { duration: "0.35" } }}
-                            transition={{ stiffness: "100", duration: "0.55" }}
+                            transition={{ stiffness: "100", duration: "0.3" }}
                             className='w-1/4 bg-black/50 min-h-full'
                             onClick={() => setMenu((s) => !s)}
                         >

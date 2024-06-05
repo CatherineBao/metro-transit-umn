@@ -24,7 +24,7 @@ function App() {
                       <h1> View This Ticket </h1>
                       <FontAwesomeIcon icon={faTicket} />
                     </div>
-                    <p className='uppercase  font-bold text-black text-[0.5rem] text-center'>Time Left <br/> 2 Hours</p>
+                    <p className='uppercase w-full font-bold text-black text-[0.5rem] text-center'>Time Left <br/> 2 Hours</p>
                   </div>
                 </div>
               </div>
