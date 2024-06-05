@@ -20,11 +20,11 @@ function App() {
                 <div className='bg-light-gray min-h-full w-full p-3'>
                   <h1 className='font-semibold mb-10'>Adult Non-Rush Hour</h1>
                   <div className='uppercase rounded-lg flex items-center gap-5 bg-blue w-full h-10 p-[0.1rem]'> 
-                    <div className='font-bold text-xs rounded-l-lg bg-black w-2/3 min-h-full flex items-center justify-center gap-2'>
+                    <div className='p-2 font-bold text-xs rounded-l-lg bg-black w-2/3 min-h-full flex items-center justify-center gap-2'>
                       <h1> View This Ticket </h1>
                       <FontAwesomeIcon icon={faTicket} />
                     </div>
-                    <p className='uppercase w-full font-bold text-black text-[0.5rem] text-center'>Time Left <br/> 2 Hours</p>
+                    <p className='uppercase w-1/4 font-bold text-black text-[0.5rem]'>Time Left <br/> 2 Hours</p>
                   </div>
                 </div>
               </div>
