@@ -2,12 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Ticket from './pages/Ticket'
 import reportWebVitals from './reportWebVitals';
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <HashRouter>
+      <div className="bg-black">
+        < App />
+        <Routes>
+          <Route path="/Ticket" element={<Ticket />} />
+        </Routes>
+      </div>
+    </HashRouter>
   </React.StrictMode>
 );
 
