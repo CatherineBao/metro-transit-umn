@@ -11,9 +11,9 @@ root.render(
   <React.StrictMode>
     <HashRouter>
       <div className="bg-black">
-        < App />
         <Routes>
-          <Route path="/Ticket" element={<Ticket />} />
+          <Route path ="/" element={< App />}/>
+          <Route path="/ticket" element={<Ticket />} />
         </Routes>
       </div>
     </HashRouter>

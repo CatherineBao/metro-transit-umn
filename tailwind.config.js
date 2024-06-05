@@ -13,6 +13,8 @@ module.exports = {
       'white': '#f5f5f5',
       'dark-black': '#000000',
       'light-gray': '#343434',
+      'light-blue': '#90aad8',
+      'gray-blue': '#7186ab',
     },
     extend: {},
   },
