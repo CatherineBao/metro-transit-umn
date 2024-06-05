@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const Header = () => {
     const [menu, setMenu] = useState(true);
-    const nav = 'w-full bg-gray h-12 text-white flex items-center justify-starts p-5 gap-8';
+    const nav = 'w-full bg-gray h-16 text-white flex items-center justify-starts p-5 gap-8';
     return (
         <div className='flex-col items-start w-full'>
             <AnimatePresence>
@@ -20,7 +20,7 @@ const Header = () => {
                 >
                     <div className='w-screen flex min-h-screen'>
                         <div className='w-3/4 flex-col items-end bg-white'>
-                            <div className='w-full bg-gray h-12 shadow-md shadow-black'></div>
+                            <div className='w-full bg-gray h-16 shadow-md shadow-black'></div>
                             <hr/>
                             <div className={nav}>
                                 <FontAwesomeIcon icon={faTicket} />
@@ -73,7 +73,7 @@ const Header = () => {
                 </motion.div>
                 ) : null}
             </AnimatePresence>
-            <div className='w-full bg-gray h-12 p-5 flex items-center text-white justify-between drop-shadow-md relative' >
+            <div className='w-full bg-gray h-16 p-5 flex items-center text-white justify-between drop-shadow-md relative' >
                 <div className='text-white font-semibold flex justify-start items-center gap-5 h-full'>
                     <FontAwesomeIcon 
                         icon={faBars}

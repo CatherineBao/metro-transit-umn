@@ -8,7 +8,7 @@ import logo from '../images/goto-logo-blue.png';
 const Ticket = () => {
     return (
         <div className="bg-[#ffffff]">
-            <div className=' w-full bg-gray h-12 p-5 flex items-center text-white justify-end drop-shadow-md relative' >
+            <div className=' w-full bg-gray h-16 p-5 flex items-center text-white justify-end drop-shadow-md relative' >
                 <Link to="/">
                     <h1>X</h1>
                 </Link>
