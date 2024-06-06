@@ -32,8 +32,8 @@ function AboutSection(props) {
     return (
         <div>
             <Link to="/Ticket" state={{ ticketType: "Adult " + props.times, type: props.type }}>
-                <div className="flex justify-between items-center border-b py-2">
-                    <h2 className="text-[0.8rem]">{props.ticketType}</h2>
+                <div className="flex justify-between items-center border-b py-2 min-h-15">
+                    <h2>{props.ticketType}</h2>
                     <div className="flex items-center">
                         <p className="text-xs mr-4">{props.price}</p>
                         <FontAwesomeIcon icon={faCircleInfo} className="text-xs bg-blue p-1 rounded-md px-2 text-gray"/>
