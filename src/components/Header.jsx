@@ -19,44 +19,44 @@ const Header = () => {
                     className='absolute z-10'
                 >
                     <div className='w-screen flex min-h-screen'>
-                        <div className='w-3/4 flex-col items-end bg-white'>
-                            <div className='w-full bg-gray h-16 shadow-md shadow-black'></div>
-                            <hr/>
-                            <div className={nav}>
-                                <FontAwesomeIcon icon={faTicket} />
-                                <h1>My Tickets</h1>
-                            </div>
-                            <hr className='w-1/4'/>
-                            <div className={nav}>
-                                <FontAwesomeIcon icon={faBus} />
-                                <h1>Tools</h1>
-                            </div>
-                            <hr className='w-1/4'/>
-                            <div className={nav}>
-                                <FontAwesomeIcon icon={faClock} />
-                                <h1>History</h1>
-                            </div>
-                            <hr className='w-1/4'/>
-                            <div className={nav}>
-                                <FontAwesomeIcon icon={faEnvelope} />
-                                <h1>Redeem Code</h1>
-                            </div>
-                            <hr className='w-1/4'/>
-                            <div className={nav}>
-                                <FontAwesomeIcon icon={faGear} />
-                                <h1>Settings</h1>
-                            </div>
-                            <hr className='w-1/4'/>
-                            <div className={nav}>
-                                <FontAwesomeIcon icon={faPhone} />
-                                <h1>Report a Problem</h1>
-                            </div>
-                            <hr className='w-1/4'/>
-                            <div className={nav}>
-                                <FontAwesomeIcon icon={faCircleQuestion} />
-                                <h1>FAQ</h1>
-                            </div>
-                            <div className='bg-black h-full w-full'>
+                        <div className='w-3/4 flex-col items-end bg-black'>
+                            <div className='bg-white'>
+                                <div className='w-full bg-gray h-16 shadow-md shadow-black'></div>
+                                <hr/>
+                                <div className={nav}>
+                                    <FontAwesomeIcon icon={faTicket} />
+                                    <h1>My Tickets</h1>
+                                </div>
+                                <hr className='w-1/4'/>
+                                <div className={nav}>
+                                    <FontAwesomeIcon icon={faBus} />
+                                    <h1>Tools</h1>
+                                </div>
+                                <hr className='w-1/4'/>
+                                <div className={nav}>
+                                    <FontAwesomeIcon icon={faClock} />
+                                    <h1>History</h1>
+                                </div>
+                                <hr className='w-1/4'/>
+                                <div className={nav}>
+                                    <FontAwesomeIcon icon={faEnvelope} />
+                                    <h1>Redeem Code</h1>
+                                </div>
+                                <hr className='w-1/4'/>
+                                <div className={nav}>
+                                    <FontAwesomeIcon icon={faGear} />
+                                    <h1>Settings</h1>
+                                </div>
+                                <hr className='w-1/4'/>
+                                <div className={nav}>
+                                    <FontAwesomeIcon icon={faPhone} />
+                                    <h1>Report a Problem</h1>
+                                </div>
+                                <hr className='w-1/4'/>
+                                <div className={nav}>
+                                    <FontAwesomeIcon icon={faCircleQuestion} />
+                                    <h1>FAQ</h1>
+                                </div>
                             </div>
                         </div>
                         <motion.div
