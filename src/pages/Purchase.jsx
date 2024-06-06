@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Purchase = () => {
     return (
         <div className="bg-black text-white min-h-screen">
-            <div className="bg-gray h-15 flex justify-between items-center px-4 py-2">
+            <div className="bg-gray h-16 flex justify-between items-center px-4 py-2">
                 <div className="flex items-center gap-5">
                     <Link to="/">
                         <FontAwesomeIcon icon={faArrowLeft} className="mr-2"/>
@@ -16,7 +16,7 @@ const Purchase = () => {
                 <Link to="/" className="uppercase text-sm">Cancel</Link>
             </div>
             <div>
-                <p className="text-xs m-3 text-blue">Select Fare</p>
+                <p className="text-xs m-4 text-blue">Select Fare</p>
                 <div className="bg-gray w-full p-3">
                     <AboutSection ticketType="All-Day" times="All-Day" price="$5.00" type={true} />
                     <AboutSection ticketType="Weekend All-Day / Saturday and Sunday" type={true} times="Weekend All-Day" price="$4.00" info="Valid Saturday and Sunday only. All-Day passes are valid until 2am after activation." />
@@ -32,7 +32,7 @@ function AboutSection(props) {
     return (
         <div>
             <Link to="/Ticket" state={{ ticketType: "Adult " + props.times, type: props.type }}>
-                <div className="flex justify-between items-center border-b py-2 min-h-15">
+                <div className="flex justify-between items-center border-b py-2 min-h-16">
                     <h2>{props.ticketType}</h2>
                     <div className="flex items-center">
                         <p className="text-xs mr-4">{props.price}</p>
