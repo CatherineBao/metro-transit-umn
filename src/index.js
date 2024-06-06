@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Ticket from './pages/Ticket'
+import Purchase from './pages/Purchase';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter, Route, Routes } from "react-router-dom";
 
@@ -13,7 +14,8 @@ root.render(
       <div className="bg-black">
         <Routes>
           <Route path ="/" element={< App />}/>
-          <Route path="/ticket" element={<Ticket />} />
+          <Route path="/ticket" element={<Ticket />}/>
+          <Route path="/purchase" element={<Purchase />}/>
         </Routes>
       </div>
     </HashRouter>

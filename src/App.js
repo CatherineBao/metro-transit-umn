@@ -14,7 +14,7 @@ function App() {
             <p class="text-blue mb-5"> 
               Activated Tickets 
             </p> 
-            <Link to="/Ticket">
+            <Link to="/Ticket" state={{ ticketType: "Adult Non-Rush Hour" }}>
               <div className='flex gap-3 text-white bg-black p-3 min-h-32 shadow-[0_0_30px_rgba(255,255,255,0.5)]'>
                 <img className="h-1/6 w-1/6" src={logo} alt="go to logo" />
                 <div className='bg-light-gray min-h-full w-full p-3'>
@@ -35,7 +35,9 @@ function App() {
       </div>
       <div>
         <div className='bg-gray min-h-14 p-3'>
-                <h1 className='bg-blue mx-3 py-1 uppercase font-semibold text-sm text-center min-h-6 rounded-sm'>Buy Tickets</h1>
+            <Link to="/purchase">
+              <h1 className='bg-blue mx-3 py-1 uppercase font-semibold text-sm text-center min-h-6 rounded-sm'>Buy Tickets</h1>
+            </Link>
         </div>
         <div className='bg-light-gray min-h-4'></div>
       </div>

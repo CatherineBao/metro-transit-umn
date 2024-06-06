@@ -1,11 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom'; 
 import Timer from '../components/Timer';
 import Expiration from "../components/Expiration";
 import logo from '../images/goto-logo-blue.png';
 
 const Ticket = () => {
+    const location = useLocation();
+    const { ticketType } = location.state || { ticketType: "Something is very broken" };
+    const { timming } = location.state.type;
+    
     return (
         <div className="bg-[#ffffff]">
             <div className=' w-full bg-gray h-16 p-5 flex items-center text-white justify-end drop-shadow-md relative' >
@@ -53,9 +57,9 @@ const Ticket = () => {
             </div>
             <Timer/>
             <div className="p-5 shadow-md mx-2">
-                <h1 className="text-xl font-semibold">Adult Non-Rush Hour</h1>
+            <h1 className="text-xl font-semibold">{ticketType}</h1>
                 <p className="text-xs text-light-gray mb-8">Minneapolis/ St. Paul Metro Area</p>
-                <Expiration />
+                <Expiration type={timming}/>
             </div>
         </div>
     );
