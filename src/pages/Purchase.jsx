@@ -31,7 +31,7 @@ const Purchase = () => {
 function AboutSection(props) {
     return (
         <div>
-            <Link to="/Ticket" state={{ ticketType: "Adult " + props.times, type: props.type }}>
+            <Link to="/Ticket" state={{ ticketType: "Adult " + props.ticketType, type: props.type }}>
                 <div className="flex justify-between items-center border-b py-2 min-h-12">
                     <h2>{props.ticketType}</h2>
                     <div className="flex items-center">
