@@ -56,7 +56,7 @@ const Ticket = () => {
             </div>
             <Timer/>
             <div className="p-5 shadow-md mx-2">
-            <h1 className="text-[1.65rem] font-semibold leading-tight mb-1">{ticketType}</h1>
+            <h1 className="text-[1.65rem] leading-tight mb-1">{ticketType}</h1>
                 <p className="text-xs text-light-gray mb-8">Minneapolis/ St. Paul Metro Area</p>
                 <Expiration/>
             </div>
