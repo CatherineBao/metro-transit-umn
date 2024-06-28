@@ -16,11 +16,12 @@ const Ticket = () => {
                     <h1>X</h1>
                 </Link>
             </div>
-            <div className="text-gray p-5 mb-16">
+            <div className="p-3">
+            <div className="text-gray p-5 mb-14">
                 <h1 className="font-bold text-xl">Metro Transit</h1>
                 <p className="font-semibold text-sm">Show operator your ticket</p>
                 <div className="mt-12 flex justify-center items-center w-full h-44 relative">
-                    <div className="w-24 min-h-24 p-5 rounded-full z-30 absolute bg-white">
+                    <div className="w-28 min-h-28 p-5 rounded-full z-30 absolute bg-white">
                         <img className="w-full" src={logo} alt="go to logo" />
                     </div>
                     <motion.div
@@ -59,6 +60,7 @@ const Ticket = () => {
             <h1 className="text-[1.65rem] font-medium leading-tight mb-1">{ticketType}</h1>
                 <p className="text-xs text-light-gray mb-8">Minneapolis/ St. Paul Metro Area</p>
                 <Expiration/>
+            </div>
             </div>
         </div>
     );
