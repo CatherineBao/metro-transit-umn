@@ -21,7 +21,7 @@ class Timer extends Component {
   
     render() {
       return (
-        <div className='bg-[#ffffff] font-[775] text-gray text-[3rem] text-center'> 
+        <div className='bg-[#ffffff] font-[775] text-gray text-[4rem] text-center'> 
             {this.state.time} 
         </div>
       );

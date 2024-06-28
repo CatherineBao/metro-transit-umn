@@ -16,7 +16,7 @@ const Ticket = () => {
                     <h1>X</h1>
                 </Link>
             </div>
-            <div className="text-gray p-5">
+            <div className="text-gray p-5 mb-16">
                 <h1 className="font-bold text-xl">Metro Transit</h1>
                 <p className="font-semibold text-sm">Show operator your ticket</p>
                 <div className="mt-12 flex justify-center items-center w-full h-44 relative">
